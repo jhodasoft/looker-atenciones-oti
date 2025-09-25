@@ -1,0 +1,24 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.log
+
+# Archivos de entorno (credenciales, configuraciones locales)
+.env
+*.key
+*.json
+
+# Archivos de exportación pesados
+*.pdf
+*.png
+*.jpg
+
+# Carpeta de backups locales
+/backups/
+
+# Evitar subir datos sensibles
+/data/*
+!data/README.md
